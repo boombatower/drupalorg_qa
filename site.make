@@ -8,6 +8,8 @@ projects[libraries][download][type] = git
 projects[libraries][download][url] = http://git.drupal.org/project/libraries.git
 projects[libraries][download][revision] = 9022ed7da42ec1513255e829e098a808e8e55bce
 
+projects[coffee] = 1.0
+
 projects[conduit][type] = module
 projects[conduit][download][type] = git
 projects[conduit][download][url] = git@github.com:boombatower/conduit.git
@@ -26,6 +28,7 @@ projects[environment][download][url] = git@github.com:boombatower/environment.gi
 projects[environment][download][branch] = 7.x-1.x
 
 projects[environment_indicator] = 1.0
+projects[features] = 1.0-rc1
 projects[markdown] = 1.0
 projects[module_filter] = 1.4
 projects[mollom] = 1.0
@@ -36,4 +39,5 @@ projects[pathfilter][download][type] = git
 projects[pathfilter][download][url] = http://git.drupal.org/project/pathfilter.git
 projects[pathfilter][download][revision] = 42c6e3754ca35c28424318303ca00411da8411d1
 
+projects[strongarm] = 2.0-rc1
 projects[token] = 1.0-beta2

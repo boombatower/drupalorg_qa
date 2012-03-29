@@ -1,0 +1,22 @@
+<?php
+/**
+ * @file
+ * Provides install hook implementations.
+ *
+ * @author Jimmy Berry ("boombatower", http://drupal.org/user/214218)
+ */
+
+/**
+ * Implements hook_install().
+ */
+function site_install() {
+  variable_set('theme_default', 'garland');
+  variable_set('admin_theme', 'garland');
+  theme_enable(array('garland'));
+  theme_disable(array('bartik'));
+
+  // Remove block entries for bartik theme that were created during installation.
+  db_delete('block')
+    ->condition('theme', 'bartik')
+    ->execute();
+}
