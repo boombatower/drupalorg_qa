@@ -12,7 +12,7 @@ projects[drupal][patch][reinstall] = http://drupalcode.org/project/auto_profile.
 ; auto_profile
 
 projects[auto_profile][type] = profile
-projects[auto_profile][version] = 1
+projects[auto_profile][version] = 1.0
 
 ; site
 
