@@ -6,4 +6,13 @@
  * @author Jimmy Berry ("boombatower", http://drupal.org/user/214218)
  */
 
-// Drupal needs this blank file.
+/**
+ * Implements hook_default_services_endpoint_alter().
+ */
+function site_default_services_endpoint_alter(&$endpoints) {
+  foreach ($endpoints as &$endpoint) {
+    if (strpos($endpoint->name, 'conduit') === 0) {
+      $endpoint->path = str_replace('conduit', 'api', $endpoint->path);
+    }
+  }
+}
