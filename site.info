@@ -18,7 +18,6 @@ dependencies[] = "environment_indicator"
 dependencies[] = "markdown"
 dependencies[] = "module_filter"
 dependencies[] = "pathauto"
-dependencies[] = "pathfilter"
 
 profile[site_information][site_name] = "Drupal Quality Assurance"
 profile[site_information][site_mail] = "noreply@drupal.org"
