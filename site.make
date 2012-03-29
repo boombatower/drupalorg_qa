@@ -2,10 +2,6 @@
 api = 2
 core = 7.x
 
-; Use specific versions of projects before they are required elsewhere.
-projects[views] = 3.0-rc1
-; projects[field_group] = 1.0 ; field relations are not exported to views.
-
 ; Ensure a specific revision of libraries is used.
 projects[libraries][type] = module
 projects[libraries][download][type] = git
