@@ -8,6 +8,10 @@ The project represent the qa.drupal.org site feature. The project is intended to
 
 In order to build out to codebase for qa.drupal.org perform the following.
 
-    $ drush make --yes drupal.make
+    $ drush make --yes https://raw.github.com/boombatower/drupalorg_qa/7.x-1.x/drupal.make
+
+Otherwise, you can obtain the drupal.make file via another method. If you want a "working-copy" (aka one that has git checkouts of the applicable projects) you can add `--working-copy` as shown below.
+
+    $ drush make --working-copy --yes https://raw.github.com/boombatower/drupalorg_qa/7.x-1.x/drupal.make
 
 Next the site can be installed by completing the installation wizard using the *auto profile* or using `reinstall.php` assuming database credentials are setup.
