@@ -18,5 +18,5 @@ projects[auto_profile][version] = 1.0
 
 projects[site][type] = module
 projects[site][download][type] = git
-projects[site][download][url] = git@github.com:boombatower/drupalorg_qa.git
+projects[site][download][url] = git://github.com/boombatower/drupalorg_qa.git
 projects[site][download][branch] = 7.x-1.x
